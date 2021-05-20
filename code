@@ -1,6 +1,6 @@
 #include <IRremote.h>
 
-IRrecv rec(7);
+IRrecv rec(pin);
 
 decode_results res;
 
